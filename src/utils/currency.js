@@ -5,3 +5,4 @@ export function formatMoney(value) {
     maximumSignificantDigits: 3
   }).format(value);
 }
+

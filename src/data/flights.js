@@ -10,6 +10,7 @@ export default {
         time: '10:30',
       },
       to: {
+        
         city: 'San Francisco',
         airport: 'SFO',
         time: '23:40',

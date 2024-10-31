@@ -61,6 +61,8 @@ export default function BookingFlights(props) {
     return true;
   });
 
+
+  
   const departuresData = formatData(flightData.departures);
   const returnsData = formatData(flightData.returns, true);
   const departures = filterFlights(departuresData, departureFlight);

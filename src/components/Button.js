@@ -9,6 +9,7 @@ import { isVisible, reflow } from 'utils/transition';
 export default function Button({ children, as, isLoading, ...props }) {
   return (
     <ButtonElement
+    
       tabIndex={0}
       as={as === Link ? ButtonLink : as}
       disabled={isLoading}

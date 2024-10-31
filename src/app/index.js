@@ -156,6 +156,7 @@ const AppBackgroundScrim = styled.div`
   pointer-events: none;
   transition: opacity 0.4s ease;
   background: linear-gradient(
+  
     ${props => rgba(props.theme.gradientColors[0], 0)} 0%, 
     ${props => rgba(props.theme.gradientColors[0], 0.4)} 20%, 
     ${props => props.theme.gradientColors[1]} 80%
